@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Rede Escolar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">📡 Projeto de Rede Escolar</h1>
+
+        <h2 class="mt-4">📍 Fluxograma da Rede</h2>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <img src="https://via.placeholder.com/800x400?text=Fluxograma+da+Rede" alt="Fluxograma da Rede" class="img-fluid">
+            </div>
+        </div>
+
+        <h3 class="mt-4">🖥️ Plano de Equipamentos e Custos</h3>
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">📌 Setor</th>
+                    <th scope="col">💻 Número de CPUs</th>
+                    <th scope="col">🔌 Equipamento Necessário</th>
+                    <th scope="col">💲 Custo Estimado (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Diretoria + Secretaria</td>
+                    <td>6</td>
+                    <td>1 Switch 24 portas, Cabo UTP</td>
+                    <td>R$ 750,00</td>
+                </tr>
+                <tr>
+                    <td>Salas de Aula (10 salas)</td>
+                    <td>10</td>
+                    <td>1 Switch 24 portas, Cabo UTP</td>
+                    <td>R$ 750,00</td>
+                </tr>
+                <tr>
+                    <td>Sala de Informática</td>
+                    <td>24</td>
+                    <td>1 Switch 24 portas, Cabo UTP</td>
+                    <td>R$ 750,00</td>
+                </tr>
+                <tr>
+                    <td>Servidor</td>
+                    <td>1</td>
+                    <td>1 Roteador, Cabo UTP</td>
+                    <td>R$ 500,00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="mt-4">📏 Cálculo de Cabo</h3>
+        <p>A quantidade de cabo foi calculada considerando que cada CPU está a **1 metro** do switch mais próximo.  
+        Para as salas de aula, o cabo precisará ser estendido **20 metros após o pátio**.</p>
+
+        <div class="table-responsive">
+            <table class="table table-bordered mt-3">
+                <thead>
+                    <tr>
+                        <th scope="col">🏢 Setor</th>
+                        <th scope="col">📏 Quantidade de Cabo (m)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Diretoria + Secretaria</td>
+                        <td>60m</td>
+                    </tr>
+                    <tr>
+                        <td>Salas de Aula</td>
+                        <td>200m (10 salas x 30m)</td>
+                    </tr>
+                    <tr>
+                        <td>Sala de Informática</td>
+                        <td>24m</td>
+                    </tr>
+                    <tr>
+                        <td>Servidor</td>
+                        <td>1m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="mt-4">💰 Resumo do Orçamento</h3>
+        <p>Com base nas necessidades de cabo e dispositivos, o orçamento total para a instalação da rede será:</p>
+        <ul>
+            <li><strong>Custo Total de Equipamentos e Cabos:</strong> R$ 16.405,00</li>
+            <li><strong>Custo de Instalação (estimado):</strong> R$ 5.000,00</li>
+        </ul>
+        <p><strong>💵 Total Estimado:</strong> R$ 21.405,00</p>
+
+       
+    </div>
+</body>
+</html>
