@@ -54,6 +54,7 @@ Desenvolver um projeto de rede para a escola, incluindo a escolha da topologia, 
 - Organização e coerência no orçamento.
 
 ---
+[Projeto topologia da rede](https://alevitorio.github.io/topologia-rede/)
 
 Boa sorte e vamos criar uma rede de sucesso para a escola! 🎉
 ```
